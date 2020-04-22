@@ -1,136 +1,134 @@
 1
 00:00:01,550 --> 00:00:03,920
-
-The following content is provided under a Creative
+下面的内容是根据知识共享许可提供的
+The following content is provided under a Creative Commons license.
 
 2
 00:00:03,920 --> 00:00:05,310
 
-Commons license.
 
 3
 00:00:05,310 --> 00:00:07,520
-
+你们的支持将帮助 MIT开放课程
 Your support will help MIT OpenCourseWare
 
 4
 00:00:07,520 --> 00:00:11,610
-
+继续免费提供高质量的教育资源
 continue to offer high quality educational resources for free.
 
 5
 00:00:11,610 --> 00:00:14,180
-
+如果你想捐款或者查看麻省理工学院数百门课程的附加材料
 To make a donation, or to view additional materials
 
 6
 00:00:14,180 --> 00:00:18,140
-
-from hundreds of MIT courses, visit MIT OpenCourseWare
+请访问 ocw.mit.edu 上的 MIT开放课程。
+from hundreds of MIT courses, visit MIT OpenCourseWare at ocw.mit.edu.
 
 7
 00:00:18,140 --> 00:00:19,026
 
-at ocw.mit.edu.
 
 8
 00:00:22,780 --> 00:00:24,680
-
+教授：你们准备好了吗
 PROFESSOR: So, are we ready to go?
 
 9
 00:00:24,680 --> 00:00:28,810
-
+还有关于18.065课程的问题吗？
 Any questions on 18065?
 
 10
 00:00:28,810 --> 00:00:34,540
-
+就像我之前说的，这门课是线性代数和很多数学问题的集合
 So it will be, as I said before, a mixture of linear algebra
 
 11
 00:00:34,540 --> 00:00:42,430
-
+伴随着许多在线材料
 and math questions, along with online using the material.
 
 12
 00:00:42,430 --> 00:00:43,240
-
+很好
 OK.
 
 13
 00:00:43,240 --> 00:00:47,890
-
+所以在接下来的一两周内
 So I'm, in this first week or two,
 
 14
 00:00:47,890 --> 00:00:51,880
-
+我会复习线性代数的重点
 reviewing the highlights of linear algebra.
 
 15
 00:00:51,880 --> 00:00:59,240
-
+上次讲到了这
 And I've reached this point, to remember--
 
 16
 00:00:59,240 --> 00:01:00,560
-
+我们开始吧
 well, so we--
 
 17
 00:01:00,560 --> 00:01:07,430
-
+我只是说了两个关于矩阵相乘的词
 I just said two words about multiplying matrices
 
 18
 00:01:07,430 --> 00:01:12,770
-
+一种方法是使用列乘以行
 by using column times row as a way to do it.
 
 19
 00:01:12,770 --> 00:01:16,040
-
+现在，我想通过5个关键的矩阵分解
 And now, I want to illustrate that
 
 20
 00:01:16,040 --> 00:01:23,480
-
+来说明这一点
 by the five key factorizations of matrices.
 
 21
 00:01:23,480 --> 00:01:24,320
-
+很好
 OK.
 
 22
 00:01:24,320 --> 00:01:25,620
-
+他们是什么?
 So what are they?
 
 23
 00:01:25,620 --> 00:01:28,070
-
+你认出他们了吗?
 And do you recognize them?
 
 24
 00:01:28,070 --> 00:01:29,780
-
+每个人都用过这些符号?\
 Everybody uses those letters.
 
 25
 00:01:29,780 --> 00:01:33,710
-
+事实上，这些字母，像是Lu、QR
 In fact, some of those letters, like LU or QR,
 
 26
 00:01:33,710 --> 00:01:38,450
-
+将是线性代数中最常用的MATLAB命令
 would be the most used MATLAB commands in linear algebra.
 
 27
 00:01:38,450 --> 00:01:42,020
-
+所以A=LU
 So a A equal LU of, maybe--
 
 28
